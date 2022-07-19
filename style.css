@@ -4,8 +4,6 @@
 body {
     background-color: #F3F1FF;
     font-family: 'Poppins', sans-serif;
-
-
 }
 
 .container {
@@ -37,4 +35,33 @@ h2 {
 .player img {
     width: 50px;
     height: 56px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.blog {
+    display: flex;
+}
+
+.thum img {
+    width: 177px;
+    height: 177px;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.course_thum img {
+    width: 200px;
+    height: 100px;
+}
+
+.course_details {
+    display: flex;
+    align-items: center
 }
