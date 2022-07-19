@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@400;500;700&family=Yellowtail&display=swap');
+
+
+body {
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.container {
+    width: 870px;
+    background-color: #FFFFFF;
+}
+
+h2 {
+    color: #562EFF;
+    padding: 20px;
+}
+
+.top_section {
+    margin: 0 auto;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.player {
+    display: flex;
+    justify-content: center;
+    align-content: center
+}
+
+.player img {
+    width: 50px;
+    height: 56px;
+}
